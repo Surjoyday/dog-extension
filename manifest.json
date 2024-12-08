@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Random Dog Image Extension",
+  "description": "Happy Dogs, Happy You: A click away from a smile",
+  "version": "1.0",
+  "icons": {
+    "128": "/images/dog-128.png",
+    "48": "/images/dog-48.png",
+    "32": "/images/dog-32.png",
+    "16": "/images/dog-16.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "/images/dog-128.png"
+  },
+  "permissions": ["activeTab"]
+}
